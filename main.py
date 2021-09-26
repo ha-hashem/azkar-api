@@ -25,3 +25,7 @@ def index():
 		'reference': content[random_int][4]
 	}
 	return gen
+
+
+if __name__ == '__main__':
+    app.run()
